@@ -11857,6 +11857,7 @@ body .banner {
   background-position: center;
   height: 350px;
   color: white;
+  margin-bottom: 3%;
 }
 body .banner h1, body .banner .h1 {
   font-weight: bold;
@@ -11866,6 +11867,7 @@ body .interesting-cities {
 }
 body .interesting-cities h4, body .interesting-cities .h4 {
   color: white;
+  font-size: xx-large;
   text-align: center;
 }
 body .interesting-cities li {
@@ -11875,8 +11877,12 @@ body .interesting-cities li {
   background-color: rgb(14, 13, 13);
   color: white;
   border-radius: 2px;
+  height: 61px;
+  text-align: center;
+  font-size: 25px;
 }
 body .card {
+  margin-left: 12%;
   height: 100%;
   background-color: rgb(97, 105, 112);
   color: white;
@@ -11884,9 +11890,12 @@ body .card {
   border-color: black;
   align-items: center;
 }
+body .card .card-img-top {
+  height: 150px;
+}
 body .card h5, body .card .h5 {
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
 }
 body .card .btn {
@@ -11897,35 +11906,50 @@ body .card .btn {
   border-color: black;
   margin-left: 35%;
 }
-body #most-popular {
-  width: 100vh;
-  background-color: rgb(133, 133, 133);
+body #most-popular-restaurant {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
   color: white;
+  padding: 20px 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
-body #most-popular h3, body #most-popular .h3 {
+body #most-popular-restaurant h4, body #most-popular-restaurant .h4 {
   color: white;
+  margin-top: 5%;
   margin-bottom: 50px;
+  font-size: xx-large;
+  text-align: center;
+  margin-right: 50px;
+}
+body #most-popular-restaurant #h5 {
+  margin-top: 10%;
+  color: black;
+  font-size: 25px;
   text-align: center;
 }
-body #most-popular #most-popular .col-lg-3 img {
-  gap: 20%;
+body #most-popular-restaurant p {
+  margin-top: 8%;
 }
-body footer {
+
+footer {
   height: 60px;
   background-color: rgb(14, 13, 13);
   color: white;
   display: flex;
   align-items: center;
 }
-body footer .copy {
+footer .copy {
   font-size: large;
   margin-left: 50px;
 }
-body footer .icons {
+footer .icons {
   display: flex;
   height: 30px;
   width: 30px;
-  margin-left: 900px;
+  margin-left: 1000px;
   gap: 20px;
 }
 

@@ -10,6 +10,7 @@ body {
   .banner {
     h1 {
       font-weight: bold;
+
     }
     background-image: url(../../public/assets/images/Guia-Estambul-Turquia.jpg);
     background-repeat: no-repeat;
@@ -17,11 +18,13 @@ body {
     background-position: center;
     height: 350px;
     color: white;
+    margin-bottom: 3%;
   }
 
   .interesting-cities {
     h4 {
       color: white;
+      font-size: xx-large;
       text-align: center;
     }
     padding: 8px;
@@ -32,16 +35,24 @@ body {
       background-color: rgb(14, 13, 13);
       color: white;
       border-radius: 2px;
+      height: 61px;
+      text-align: center;
+      font-size: 25px;
     }
   }
 
   .card {
+    .card-img-top {
+      height: 150px;
+    }
+
     h5 {
       color: black;
-      font-weight: bold;
+      font-weight: bolder;
       text-align: center;
     }
 
+    margin-left: 12%;
     height: 100%;
     background-color: rgb(97, 105, 112);
     color: white;
@@ -59,38 +70,58 @@ body {
     }
   }
 
-  #most-popular {
-    h3 {
+  #most-popular-restaurant {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    color: white;
+    padding: 20px 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    h4 {
       color: white;
+      margin-top: 5%;
       margin-bottom: 50px;
+      font-size: xx-large;
+      text-align: center;
+      margin-right: 50px;
+    }
+
+    #h5 {
+      margin-top: 10%;
+      color: black;
+
+      font-size: 25px;
+      
       text-align: center;
     }
-    width: 100vh;
-    background-color: rgb(133, 133, 133); 
-    color: white;
-    #most-popular .col-lg-3 img {
-     gap: 20%;
+
+    p{
+      margin-top: 8%;
     }
 
   }
+}
 
-  footer {
-    height: 60px;
-    background-color: rgb(14, 13, 13);
-    color: white;
+footer {
+  height: 60px;
+  background-color: rgb(14, 13, 13);
+  color: white;
+  display: flex;
+  align-items: center;
+
+  .copy {
+    font-size: large;
+    margin-left: 50px;
+  }
+  .icons {
     display: flex;
-    align-items: center;
-
-    .copy {
-      font-size: large;
-      margin-left: 50px;
-    }
-    .icons {
-      display: flex;
-      height: 30px;
-      width: 30px;
-      margin-left: 900px;
-      gap: 20px;
-    }
+    height: 30px;
+    width: 30px;
+    margin-left: 1000px;
+    gap: 20px;
   }
 }
