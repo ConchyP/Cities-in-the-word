@@ -1,0 +1,96 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-color: rgb(133, 133, 133);
+
+  main {
+    padding: 2%;
+  }
+
+  .banner {
+    h1 {
+      font-weight: bold;
+    }
+    background-image: url(../../public/assets/images/Guia-Estambul-Turquia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    color: white;
+  }
+
+  .interesting-cities {
+    h4 {
+      color: white;
+      text-align: center;
+    }
+    padding: 8px;
+    li {
+      margin-top: 10px;
+      padding-top: 20px;
+      padding-bottom: 8px;
+      background-color: rgb(14, 13, 13);
+      color: white;
+      border-radius: 2px;
+    }
+  }
+
+  .card {
+    h5 {
+      color: black;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    height: 100%;
+    background-color: rgb(97, 105, 112);
+    color: white;
+    border-width: 3px;
+    border-color: black;
+    align-items: center;
+
+    .btn {
+      background-color: orangered;
+      color: black;
+      font-weight: bold;
+      border-width: 2px;
+      border-color: black;
+      margin-left: 35%;
+    }
+  }
+
+  #most-popular {
+    h3 {
+      color: white;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    width: 100vh;
+    background-color: rgb(133, 133, 133); 
+    color: white;
+    #most-popular .col-lg-3 img {
+     gap: 20%;
+    }
+
+  }
+
+  footer {
+    height: 60px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    display: flex;
+    align-items: center;
+
+    .copy {
+      font-size: large;
+      margin-left: 50px;
+    }
+    .icons {
+      display: flex;
+      height: 30px;
+      width: 30px;
+      margin-left: 900px;
+      gap: 20px;
+    }
+  }
+}
